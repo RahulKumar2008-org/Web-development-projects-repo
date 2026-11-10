@@ -1,0 +1,45 @@
+.tree{
+    display:flex;
+    align-content:center;
+    justify-content:right;
+    justify-content:space-evenly;
+}
+
+
+
+.one{
+    width:260px;
+    background-color:bisque;
+}
+.two{
+    width:260px;
+    background-color:bisque;
+}
+.three{
+    width:280px;
+    background-color:bisque;
+}
+
+.form{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:2px solid black;
+    background-color:gainsboro;
+    height:400px;
+
+}
+img{
+     border-radius:50%;
+    border-color:white;
+}
+img:hover{
+    transform:rotateY(360deg);
+    transition-duration: 20s;
+    transition-delay: 0s;
+    transition-timing-function: 30;
+}
+.all{
+    background-image:url(Imts.avif);
+    height:1000px;
+}

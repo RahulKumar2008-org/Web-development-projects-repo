@@ -1,0 +1,119 @@
+.menuimg{
+    display:flex;
+    align-content:center;
+    justify-content:right;
+    justify-content:space-around;
+    height:280px;
+}
+.mtn{
+    height:1600px;
+    background-image:url(Ctm\ top\ image.jpeg);
+}
+
+.img:hover{
+    transform:rotatey(180deg);
+    transform-style:preserve-3d;
+    transition-duration:10s;
+}
+.gmt:hover{
+    transform:rotatey(180deg);
+    transform-style:preserve-3d;
+    transition-duration:10s;
+}
+.cmt:hover{
+    transform:rotatey(180deg);
+    transform-style:preserve-3d;
+    transition-duration:10s;
+}
+.part{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:4px;
+    border-color:black;
+    border-style:solid;
+
+}
+.pat{
+    display:flexbox;
+    align-items:center;
+    justify-content:center;
+}
+.lines{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:30px;
+    background-color:black;
+    color:white;
+
+}
+.rab{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    background-color:white;
+    height:30px;
+}
+.logo{
+    animation-direction:alternate-reverse;
+}
+.logo:hover{
+    animation:logo-spin 3s linear infinite;
+}
+@keyframes logo-spin{
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+.heading{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content:space-evenly;
+    background-color:black;
+    color:white;
+
+}
+p{
+    border:3px;
+    border-color:black;
+    border-style:solid;
+    background-color:black;
+    color:white;
+
+}
+.lam:hover{
+    transform:rotate(180deg);
+    transition-duration:4s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .sidebar {
+    width: 30%;
+    font-size: 1rem;
+  }
+
+  .main-content {
+    width: 70%;
+  }
+}
+
+@media (min-width:600px){
+    body{
+        flex-direction:row;
+    }
+    .sidebar{
+        width:fit-content;
+
+    }
+}
+

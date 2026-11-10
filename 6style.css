@@ -1,0 +1,102 @@
+.site1{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    background-color:blanchedalmond;
+    width:1600px;
+}
+.site2{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    background-color:blanchedalmond;
+    width:1600px;
+}
+.site3{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    height:280px;
+   
+   
+}
+.site4{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+     height:280px;
+   
+   
+  
+}
+
+.site5{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+     height:280px;
+   
+   
+   
+}
+
+
+.site6{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+     height:280px;
+    
+}
+
+
+.site7{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    height:280px;
+   
+   
+}
+
+.site8{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    height:280px;
+    
+   
+}
+
+
+.footer{
+    background-color:blue;
+    height:160px
+}
+button{
+    transition-property: all;
+    transition-duration:4s;
+    transition-delay:-0s;
+    background-color:goldenrod;
+   
+
+}
+button:active{
+   
+    background-color:chartreuse;
+     transform:rotate(360deg);
+
+
+}
+.all{
+    background-image:url(Imt.jpeg);
+    background-size: contain;
+}

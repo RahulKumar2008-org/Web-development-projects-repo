@@ -1,0 +1,130 @@
+.first{
+    display:flex;
+    justify-content:space-evenly;
+    height:30px;
+    background-color:black;
+    color:white;
+}
+
+.category{
+    display:flex;
+    justify-content:space-evenly;
+    height:60px;
+}
+
+.image{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.Men1{
+    display:flex;
+    align-items: center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.Men2{
+    display:flex;
+    align-items: center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.Men3{
+      display:flex;
+    align-items: center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.mencolor{
+    background-color:lightblue;
+}
+.women1{
+        display:flex;
+    align-items: center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.women2{
+          display:flex;
+    align-items: center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.women3{
+      display:flex;
+    align-items: center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.womenfinal{
+    background-color:lightblue;
+}
+.footer{
+    background-color:darkblue;
+    display:flex;
+    align-content: end;
+    color:white;
+    height:86px;
+}
+.kid1{
+    display:flex;
+    align-content:center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.kid2{
+    display:flex;
+    align-content:center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.kid3{
+    display:flex;
+    align-content:center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.kidfull{
+    background-color:lightskyblue;
+}
+.festive1{
+    display:flex;
+    align-content:center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.festive2{
+    display:flex;
+    align-content:center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.festive3{
+    display:flex;
+    align-content:center;
+    justify-content:right;
+    justify-content:space-between;
+}
+.category{
+    background-color:pink;
+    display:flex;
+    height:50px;
+}
+.image{
+    display:flex;
+    justify-content:space-between;
+    height:580px;
+    background-image:url(C.jpeg);
+    background-size:auto;
+    
+}
+.inside{
+    height:600px;
+}
+
+a{
+    color:black;
+}
+p{
+    color:hotpink;
+}

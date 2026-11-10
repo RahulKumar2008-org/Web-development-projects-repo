@@ -1,0 +1,25 @@
+.all{
+    background-color:bisque;
+    height:1000px;
+}
+.head{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.main{
+    border: 10px;
+    border-radius: 60%;
+    border-color: black;
+}
+.submit{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+button{
+    height:100px;
+    width:200px;
+    background-color:azure
+}

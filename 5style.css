@@ -1,0 +1,90 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:right;
+    justify-content:space-evenly;
+    background-color:cornflowerblue;
+    height:30px;
+}
+.linksimage{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+
+    height:360px;
+}
+.city{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    height:350px;
+    border-radius: 100px;
+    border-color: black;
+  
+
+}
+.rooms{
+    display:flex;
+    justify-content:right;
+    justify-content:space-evenly;
+}
+.top{
+    background-image:url(Gro.jpeg);
+    background-size:contain;
+}
+a{
+    color:whitesmoke;
+}
+.one{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:center;
+    height:30px;
+    background-color:whitesmoke;
+}
+.sec{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:center;
+    height:30px;
+    background-color:whitesmoke;
+}
+.third{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:center;
+    height:30px;
+    background-color:white;
+    color:black;
+}
+.footer{
+    background-color:cornflowerblue;
+    height:140px;
+}
+.bhk{
+    background-color:#EBE2CC;
+    height:1000px;
+}
+.box{
+    background-color:#FFDDDD;
+    height:1000px;
+}
+.tap{
+    background-color:#BEDEFF;
+    height:1000px;
+}
+.g1{
+    background-color:burlywood;
+}
+.da{
+    background-color:lightgoldenrodyellow;
+}
+.rm{
+
+    background-color:bisque;
+}

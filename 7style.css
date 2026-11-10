@@ -1,0 +1,34 @@
+.first{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:center;
+    background-color:bisque;
+    width:1600px;
+}
+
+.equal{
+    background-color:azure;
+}
+@media(width:900px){
+     .equal{
+        background-color:cyan;
+     }
+}
+@media (width:800px){
+    .equal{
+        background-color:darkkhaki;
+    }
+}
+
+@media (min-width:200px)and(max-width:300px){
+    .equal{
+        background-color:blueviolet;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .equal {
+        background-color: aquamarine;
+    }
+}

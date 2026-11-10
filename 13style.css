@@ -1,0 +1,59 @@
+.all{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    background-color:#0B132B;
+    
+}
+
+.track{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
+}
+
+.heading{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    color:white;
+    background-color:black;
+}
+.heading:hover{
+     transition:transform 0.25 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+body{
+    background-color:#AFCBB2;
+}
+.head{
+    display:flex;
+    align-items:center;
+    justify-content:left;
+}
+.container{
+    overflow: hidden;
+}
+@media screen and (max-width:1024px){
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:425px){
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:320px){
+    .container{
+        overflow:hidden;
+    }
+}

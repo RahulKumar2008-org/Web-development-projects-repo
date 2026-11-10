@@ -1,0 +1,62 @@
+.all{
+    display: grid;
+    place-items: center; /* Centers items both horizontally and vertically */
+    align-content: center; /* Ensures the entire group stays centered */
+    height: 100vh; /* Optional: Gives the parent height so vertical centering is visible */
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+
+    background-image:url(imh.jpeg);
+   
+}
+.lit{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+}
+
+.lat{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+}
+
+.lot{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+}
+.ela{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+.andrew{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.joseph{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.second{
+     background-color:#f2b79f;
+}
+.third{
+     background-color:#f2b79f;
+}
+.top{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background-color:black;
+}
