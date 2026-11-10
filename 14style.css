@@ -1,0 +1,70 @@
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    height:50px;
+    background-color: #5b6e52;
+}
+
+.items{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-around;
+    background-color:#F7F2EE;
+    width:1600px;
+}
+
+
+.card{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-around;
+}
+
+
+.lunch{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-evenly;
+    width:1600px;
+    background-color:#D4A373;
+
+}
+.lunchcard{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    justify-content:space-around;
+}
+.quote{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+body{
+    background-color:#F7F2EE;
+}
+@media screen and (max-width:1024px){
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:425px){
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:320px){
+    .container{
+        overflow:hidden;
+    }
+}
